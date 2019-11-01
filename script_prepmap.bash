@@ -15,10 +15,10 @@ cat
 # get annotation using Gencode
 wget ..
 gunzip -c gencode.vM23.primary_assembly.annotation.gtf.gz > gencode.vM23.primary_assembly.annotation.gtf
-awk '{if($3=="transcript"){print substr($12,2,length($12)-3),"\t",substr($10,2,length($10)-3)}}' gencode.vM23.primary_assembly.annotation.gtf > tx2gene.txt
-awk '{print $1,"\t",$1}' ERCC92.gtf > ercc.txt
-cat tx2gene.txt ercc.txt > tx2geneercc.txt
+awk '{if($3=="transcript"){print substr($12,2,length($12)-3)}}' gencode.vM23.primary_assembly.annotation.gtf > tx2gene.txt
+awk '{...}' ERCC92.gtf > ercc.txt
+... > tx2geneercc.txt
 
 # salmon index 
-/softwares/salmon-latest_linux_x86_64/bin/salmon index 
+salmon index ...
 
