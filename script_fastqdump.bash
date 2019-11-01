@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Create a working directory:
-data="/home/rstudio/data_local/raw_data"
+data="/home/rstudio/disk/data"
 #apparait /mnt/data_local
 mkdir -p $data
 cd $data
