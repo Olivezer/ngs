@@ -11,11 +11,13 @@ mkdir -p sra_data
 cd sra_data
 
 # Make a list of SRR accessions:
-SRR="XXX XXX"
+SRR="SRX5584534 SRX5584533"
 
 # For each SRR accession, download the data :
-for ...  in ....
+for file  in $SRR
 do
+fastq-dump $file -X 10 --split-files
+echo $file
  
 done 
 
