@@ -11,7 +11,7 @@ mkdir -p sra_data
 cd sra_data
 
 # Make a list of SRR accessions:
-SRR="SRX5584534 SRX5584533"
+SRR="SRR8795651 SRR8795649	"
 
 # For each SRR accession, download the data :
 for file  in $SRR
