@@ -9,6 +9,7 @@ Commandes utiles:
 git add * -> ajouter les fichiers au repo
 git commit -m "message" -> quand on veut ajouter un commit
 git push -> mise à jour
+Aussi: https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
 06/11/2019
 Téléchargement des données génomiques de souris (génome + annotation des transcrits) afin d'y mapper nos transcrits ainsi que de les quantifier.
