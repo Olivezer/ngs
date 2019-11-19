@@ -1,0 +1,12 @@
+{
+    "salmon_version": "0.14.1",
+    "libType": "ISR",
+    "mates1": "/home/rstudio/disk/data/sra_data/SRR8795649_1.fastq",
+    "mates2": "/home/rstudio/disk/data/sra_data/SRR8795649_2.fastq",
+    "chromium": [],
+    "index": "/home/rstudio/disk/data/genome/transcripts_index",
+    "threads": "10",
+    "output": "./alevin_output_SRR8795649",
+    "tgMap": "/home/rstudio/disk/data/genome/transcripts_names.txt",
+    "auxDir": "aux_info"
+}

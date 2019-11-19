@@ -1,0 +1,35 @@
+[2019-11-07 18:47:18.371] [alevinLog] [info] Loading Header
+[2019-11-07 18:47:18.390] [alevinLog] [info] Loading Transcript Info 
+[2019-11-07 18:47:18.597] [alevinLog] [info] Found all transcripts to gene mappings
+[2019-11-07 18:47:18.614] [alevinLog] [info] Processing barcodes files (if Present) 
+
+ 
+[2019-11-07 18:55:42.794] [alevinLog] [info] Done barcode density calculation.
+[2019-11-07 18:55:42.794] [alevinLog] [info] # Barcodes Used: [32m184573910[0m / [31m186175223[0m.
+[2019-11-07 18:55:48.740] [alevinLog] [info] Knee found left boundary at [32m 3678 [0m
+[2019-11-07 18:55:52.174] [alevinLog] [warning] Gauss Prediction 3767 Too far from knee prediction skipping it
+[2019-11-07 18:55:52.174] [alevinLog] [info] Learned InvCov: 157.693 normfactor: 2526.27
+[2019-11-07 18:55:52.174] [alevinLog] [info] Total [32m4677[0m(has [32m998[0m low confidence) barcodes
+[2019-11-07 18:55:52.344] [alevinLog] [info] Done True Barcode Sampling
+[2019-11-07 18:55:52.589] [alevinLog] [info] Total 17.6164% reads will be thrown away because of noisy Cellular barcodes.
+[2019-11-07 18:55:52.919] [alevinLog] [info] Done populating Z matrix
+[2019-11-07 18:55:52.941] [alevinLog] [info] Total 65221 CB got sequence corrected
+[2019-11-07 18:55:52.948] [alevinLog] [info] Done indexing Barcodes
+[2019-11-07 18:55:52.948] [alevinLog] [info] Total Unique barcodes found: 1004894
+[2019-11-07 18:55:52.948] [alevinLog] [info] Used Barcodes except Whitelist: 64624
+[2019-11-07 18:55:53.061] [alevinLog] [info] Done with Barcode Processing; Moving to Quantify
+
+[2019-11-07 18:55:53.061] [alevinLog] [info] parsing read library format
+[2019-11-07 19:12:28.506] [alevinLog] [info] Starting optimizer
+
+
+[2019-11-07 19:13:04.909] [alevinLog] [info] Total 14474693.00 UMI after deduplicating.
+[2019-11-07 19:13:04.909] [alevinLog] [info] Total 4837463 BiDirected Edges.
+[2019-11-07 19:13:04.909] [alevinLog] [info] Total 726893 UniDirected Edges.
+[2019-11-07 19:13:04.909] [alevinLog] [warning] Skipped 3 barcodes due to No mapped read
+[2019-11-07 19:13:04.916] [alevinLog] [info] Clearing EqMap; Might take some time.
+[2019-11-07 19:13:08.791] [alevinLog] [info] Starting white listing of 4673 cells
+[2019-11-07 19:13:08.803] [alevinLog] [info] Starting to make feature Matrix
+[2019-11-07 19:13:08.819] [alevinLog] [info] Done making feature Matrix
+[2019-11-07 19:13:08.887] [alevinLog] [info] Finished white listing
+[2019-11-07 19:13:08.911] [alevinLog] [info] Finished optimizer
